@@ -34,6 +34,9 @@
 li :hover {
   color: #555454; }
 
+.portadas {
+  background-color: black; }
+
 .marcas {
   background-color: black;
   display: flex;
@@ -41,3 +44,86 @@ li :hover {
   flex-wrap: wrap;
   flex-direction: row;
   align-content: center; }
+
+.card {
+  width: 500px;
+  height: 450px;
+  border: black 2px solid;
+  margin: 15px;
+  border-radius: 2%; }
+
+.nike {
+  background-image: url(/img/_117751674_satan-shoes1.jpg);
+  background-size: cover;
+  position: relative; }
+
+.nike button {
+  background-color: rgba(4, 151, 196, 0.555);
+  position: absolute;
+  left: 85%;
+  bottom: 3px;
+  font-size: 20px;
+  border: rgba(4, 151, 196, 0.555) 1px solid;
+  border-radius: 13%;
+  cursor: pointer;
+  font-family: 'Akshar', sans-serif; }
+
+.nike button:hover {
+  background-color: rgba(0, 0, 255, 0.267);
+  transition: 0.3s;
+  transform: scale(1.1); }
+
+.adidas {
+  background-image: url(/img/4women-adidas-textile-01-c68d7a9e7d37b804c856454cf6c6b14d.jfif);
+  background-size: cover;
+  position: relative; }
+
+.adidas button {
+  background-color: rgba(4, 151, 196, 0.555);
+  position: absolute;
+  left: 84%;
+  bottom: 3px;
+  font-size: 20px;
+  border: rgba(4, 151, 196, 0.555) 1px solid;
+  border-radius: 13%;
+  cursor: pointer;
+  font-family: 'Akshar', sans-serif; }
+
+.adidas button:hover {
+  background-color: rgba(0, 0, 255, 0.267);
+  transition: 0.3s;
+  transform: scale(1.1); }
+
+.jordan {
+  background-image: url(/img/jordan-nike.jpg.opdownload);
+  position: relative; }
+
+.jordan button {
+  background-color: rgba(4, 151, 196, 0.555);
+  position: absolute;
+  left: 85%;
+  bottom: 3px;
+  font-size: 20px;
+  border: rgba(4, 151, 196, 0.555) 1px solid;
+  border-radius: 13%;
+  cursor: pointer;
+  font-family: 'Akshar', sans-serif; }
+
+.jordan button:hover {
+  background-color: rgba(0, 0, 255, 0.644);
+  transition: 0.3s;
+  transform: scale(1.1); }
+
+.footer {
+  background-color: white;
+  padding: 25px;
+  text-align: end; }
+
+.footer i {
+  color: #050505;
+  font-size: 30px;
+  padding: 8px; }
+
+.footer i:hover {
+  background-color: rgba(14, 14, 14, 0.295);
+  border-radius: 25%; }
