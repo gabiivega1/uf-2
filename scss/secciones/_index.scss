@@ -13,51 +13,181 @@
 }
 
 .cuerpo{
-    background-color: white;
+    position: relative;
 }
-.adidas {
-    background-color: white;
+.img1{
+    position: absolute;
+    left: 260px;
+    top: 50px;
 }
-.adidas :hover {
-    transform: scale(1.01);
-    transition: 0.5s;
+.img2{
+    position: absolute;
+    right: 260px;
+    top: 50px;
+}
+.img3{
+    position: absolute;
+    left: 260px;
+    top: 340px;
+}
+.img4{
+    position: absolute;
+    left: 600px;
+    top: 340px;
+}
+.img5{
+    position: absolute;
+    right: 600px;
+    top: 340px;
+}
+.img6{
+    position: absolute;
+    right: 260px;
+    top: 340px;
+}
+.img8{
+    position: absolute;
+    right: 260px;
+    top: 680px;
+}
+.img7{
+    position: absolute;
+    left: 260px;
+    top: 680px;
 }
 
-.envios {
-    background-color: white;
-}
-.envios :hover {
-    transform: scale(1.01);
-    transition: 0.5s;
-}
-.puma {
-    background-color: white;
-}
-.puma :hover {
-    transform: scale(1.01);
-    transition: 0.5s;
-}
-.converse {
-    background-color: white;
+// Hover
 
-}
-.converse :hover {
-    transform: scale(1.01);
-    transition: 0.5s;
-}
-.nike {
-    background-color: white;
+   [class^="imghvr-fade"],
+   [class*=" imghvr-fade"] {
+     figcaption {
+       opacity: 0;
+     }
+   
+     &:hover {
+       figcaption {
+         opacity: 1;
+       }
+   
+       > img,
+       figcaption {
+         transform: translate(0, 0);
+       }
+     }
+   }
+   
+   /* imghvr-fade
+      ----------------------------- */
+   .imghvr-fade {
+   }
+   
+   /* imghvr-fade-in-up
+      ----------------------------- */
+   .imghvr-fade-in-up {
+     figcaption {
+       transform: translate(0, 15%);
+     }
+   }
+   
+   /* imghvr-fade-in-down
+      ----------------------------- */
+   .imghvr-fade-in-down {
+     figcaption {
+       transform: translate(0, -15%);
+     }
+   }
+   
+   /* imghvr-fade-in-left
+      ----------------------------- */
+   .imghvr-fade-in-left {
+     figcaption {
+       transform: translate(-15%, 0);
+     }
+   }
+   
+   /* imghvr-fade-in-right
+      ----------------------------- */
+   .imghvr-fade-in-right {
+     figcaption {
+       transform: translate(15%, 0);
+     }
+   }
 
-}
-.nike :hover {
-    transform: scale(1.01);
-    transition: 0.5s;
-}
-.pais {
-    background-color: white;
+   @import "variables";
 
+// Custom variables
+
+
+@mixin fill($padding: 0) {
+  position: absolute;
+  top: $padding;
+  bottom: $padding;
+  left: $padding;
+  right: $padding;
 }
-.pais :hover {
-    transform: scale(1.01);
-    transition: 0.5s;
+
+[class^="imghvr-"],
+[class*=" imghvr-"] {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  max-width: 100%;
+  background-color: $image-bg;
+  color: #fff;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translateZ(0);
+
+  > img {
+    vertical-align: top;
+    max-width: 100%;
+  }
+
+  figcaption {
+    background-color: $figcaption-bg;
+    padding: $figcaption-padding;
+    @include fill;
+    color: $text-color;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $text-color;
+    }
+  }
+
+  a {
+    @include fill;
+    z-index: 1;
+  }
 }
+
+[class^="imghvr-"],
+[class*=" imghvr-"],
+[class^="imghvr-"]:before,
+[class^="imghvr-"]:after,
+[class*=" imghvr-"]:before,
+[class*=" imghvr-"]:after,
+[class^="imghvr-"] *,
+[class*=" imghvr-"] *,
+[class^="imghvr-"] *:before,
+[class^="imghvr-"] *:after,
+[class*=" imghvr-"] *:before,
+[class*=" imghvr-"] *:after {
+  box-sizing: border-box;
+  transition: all 0.35s ease;
+}
+
+.vermas{
+    position: absolute;
+    left: 42%;
+    top: 45%;
+}
+
+@import "effects/_imghvr-fade";
+

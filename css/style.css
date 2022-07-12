@@ -15,49 +15,190 @@
   align-content: center; }
 
 .cuerpo {
-  background-color: white; }
+  position: relative; }
 
-.adidas {
-  background-color: white; }
+.img1 {
+  position: absolute;
+  left: 260px;
+  top: 50px; }
 
-.adidas :hover {
-  transform: scale(1.01);
-  transition: 0.5s; }
+.img2 {
+  position: absolute;
+  right: 260px;
+  top: 50px; }
 
-.envios {
-  background-color: white; }
+.img3 {
+  position: absolute;
+  left: 260px;
+  top: 340px; }
 
-.envios :hover {
-  transform: scale(1.01);
-  transition: 0.5s; }
+.img4 {
+  position: absolute;
+  left: 600px;
+  top: 340px; }
 
-.puma {
-  background-color: white; }
+.img5 {
+  position: absolute;
+  right: 600px;
+  top: 340px; }
 
-.puma :hover {
-  transform: scale(1.01);
-  transition: 0.5s; }
+.img6 {
+  position: absolute;
+  right: 260px;
+  top: 340px; }
 
-.converse {
-  background-color: white; }
+.img8 {
+  position: absolute;
+  right: 260px;
+  top: 680px; }
 
-.converse :hover {
-  transform: scale(1.01);
-  transition: 0.5s; }
+.img7 {
+  position: absolute;
+  left: 260px;
+  top: 680px; }
 
-.nike {
-  background-color: white; }
+[class^="imghvr-fade"] figcaption,
+[class*=" imghvr-fade"] figcaption {
+  opacity: 0; }
 
-.nike :hover {
-  transform: scale(1.01);
-  transition: 0.5s; }
+[class^="imghvr-fade"]:hover figcaption,
+[class*=" imghvr-fade"]:hover figcaption {
+  opacity: 1; }
 
-.pais {
-  background-color: white; }
+[class^="imghvr-fade"]:hover > img,
+[class^="imghvr-fade"]:hover figcaption,
+[class*=" imghvr-fade"]:hover > img,
+[class*=" imghvr-fade"]:hover figcaption {
+  transform: translate(0, 0); }
 
-.pais :hover {
-  transform: scale(1.01);
-  transition: 0.5s; }
+/* imghvr-fade
+      ----------------------------- */
+/* imghvr-fade-in-up
+      ----------------------------- */
+.imghvr-fade-in-up figcaption {
+  transform: translate(0, 15%); }
+
+/* imghvr-fade-in-down
+      ----------------------------- */
+.imghvr-fade-in-down figcaption {
+  transform: translate(0, -15%); }
+
+/* imghvr-fade-in-left
+      ----------------------------- */
+.imghvr-fade-in-left figcaption {
+  transform: translate(-15%, 0); }
+
+/* imghvr-fade-in-right
+      ----------------------------- */
+.imghvr-fade-in-right figcaption {
+  transform: translate(15%, 0); }
+
+[class^="imghvr-"],
+[class*=" imghvr-"] {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  max-width: 100%;
+  background-color: #2266a5;
+  color: #fff;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translateZ(0); }
+  [class^="imghvr-"] > img,
+  [class*=" imghvr-"] > img {
+    vertical-align: top;
+    max-width: 100%; }
+  [class^="imghvr-"] figcaption,
+  [class*=" imghvr-"] figcaption {
+    background-color: #0204057c;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #ffffff; }
+    [class^="imghvr-"] figcaption h1,
+    [class^="imghvr-"] figcaption h2,
+    [class^="imghvr-"] figcaption h3,
+    [class^="imghvr-"] figcaption h4,
+    [class^="imghvr-"] figcaption h5,
+    [class^="imghvr-"] figcaption h6,
+    [class*=" imghvr-"] figcaption h1,
+    [class*=" imghvr-"] figcaption h2,
+    [class*=" imghvr-"] figcaption h3,
+    [class*=" imghvr-"] figcaption h4,
+    [class*=" imghvr-"] figcaption h5,
+    [class*=" imghvr-"] figcaption h6 {
+      color: #ffffff; }
+  [class^="imghvr-"] a,
+  [class*=" imghvr-"] a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; }
+
+[class^="imghvr-"],
+[class*=" imghvr-"],
+[class^="imghvr-"]:before,
+[class^="imghvr-"]:after,
+[class*=" imghvr-"]:before,
+[class*=" imghvr-"]:after,
+[class^="imghvr-"] *,
+[class*=" imghvr-"] *,
+[class^="imghvr-"] *:before,
+[class^="imghvr-"] *:after,
+[class*=" imghvr-"] *:before,
+[class*=" imghvr-"] *:after {
+  box-sizing: border-box;
+  transition: all 0.35s ease; }
+
+.vermas {
+  position: absolute;
+  left: 42%;
+  top: 45%; }
+
+/* imghvr-fade-*
+   ----------------------------- */
+[class^="imghvr-fade"] figcaption,
+[class*=" imghvr-fade"] figcaption {
+  opacity: 0; }
+
+[class^="imghvr-fade"]:hover figcaption,
+[class*=" imghvr-fade"]:hover figcaption {
+  opacity: 1; }
+
+[class^="imghvr-fade"]:hover > img,
+[class^="imghvr-fade"]:hover figcaption,
+[class*=" imghvr-fade"]:hover > img,
+[class*=" imghvr-fade"]:hover figcaption {
+  transform: translate(0, 0); }
+
+/* imghvr-fade
+   ----------------------------- */
+/* imghvr-fade-in-up
+   ----------------------------- */
+.imghvr-fade-in-up figcaption {
+  transform: translate(0, 15%); }
+
+/* imghvr-fade-in-down
+   ----------------------------- */
+.imghvr-fade-in-down figcaption {
+  transform: translate(0, -15%); }
+
+/* imghvr-fade-in-left
+   ----------------------------- */
+.imghvr-fade-in-left figcaption {
+  transform: translate(-15%, 0); }
+
+/* imghvr-fade-in-right
+   ----------------------------- */
+.imghvr-fade-in-right figcaption {
+  transform: translate(15%, 0); }
 
 .header {
   display: flex;
