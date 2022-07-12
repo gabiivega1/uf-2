@@ -14,28 +14,46 @@
   flex-direction: row;
   align-content: center; }
 
+.cuerpo {
+  background-color: white; }
+
+.adidas {
+  background-color: white; }
+
 .adidas :hover {
   transform: scale(1.01);
   transition: 0.5s; }
+
+.envios {
+  background-color: white; }
 
 .envios :hover {
   transform: scale(1.01);
   transition: 0.5s; }
 
 .puma {
-  position: relative; }
+  background-color: white; }
 
 .puma :hover {
   transform: scale(1.01);
   transition: 0.5s; }
 
+.converse {
+  background-color: white; }
+
 .converse :hover {
   transform: scale(1.01);
   transition: 0.5s; }
 
+.nike {
+  background-color: white; }
+
 .nike :hover {
   transform: scale(1.01);
   transition: 0.5s; }
+
+.pais {
+  background-color: white; }
 
 .pais :hover {
   transform: scale(1.01);
