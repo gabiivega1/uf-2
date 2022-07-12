@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
     <script
       src="https://kit.fontawesome.com/f18652953c.js"
       crossorigin="anonymous"
@@ -28,15 +35,54 @@
         </ul>
       </nav>
       <!-- SLIDER -->
-      <section class="portadas">
-        <ul class="slider">
-          <li id="slide1">
-            <img src="./img/athlete-3819653_1920.jpg" alt="" />
-          </li>
-          <li id="slide1"><img src="" alt="" /></li>
-          <li id="slide1"><img src="" alt="" /></li>
-        </ul>
-      </section>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./img/athletasdiaudyh editado.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/NEWERA-PAGE-MARQUE-BANNER-820x300px1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/dresden-icon-pack-banner (1).jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- <section class="portadas">
+        <img src="./img/athletasdiaudyh editado.jpg" alt="" />
+        <img src="./img/NEWERA-PAGE-MARQUE-BANNER-820x300px1.jpg" alt="" />
+      </section> -->
       <!-- MAIN -->
       <main class="main">
         <div class="marcas">
@@ -66,16 +112,30 @@
             <img src="./img/descarga.png" alt="Logo de Reebook" width="50px" />
           </ul>
         </div>
-        <section class="card nike">
-          <button type="button">ver más</button>
-      </section>
-      <section class="card adidas">
-          <button type="button">ver más</button>
-      </section>
-      <section class="card jordan">
-          <button type="button">ver más</button>
-      </section>
+        
+
       </main>
+      <div class="cuerpo">
+      <section class="card adidas">
+        <img src="./img/banner Adidas.png" alt="" />
+      </section>
+      <section class="card envios">
+        <img src="./img/Envios Gratuitos (1).png" alt="" />
+      </section>
+      <section class="card puma">
+        <img src="./img/banner-puma.png" alt="" />
+      </section>
+      <section class="card converse">
+        <img src="./img/banner-converse.png" alt="" />
+      </section>
+      <section class="card nike">
+        <img src="./img/banner-nike.png" alt="" />
+      </section>
+      <section class="card pais">
+        <img src="./img/todoelpais.png" alt="" />
+      </section>
+    </div>
+    
       <!-- FOOTER -->
       <footer class="footer">
         <div>
@@ -92,5 +152,11 @@
         </div>
       </footer>
     </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

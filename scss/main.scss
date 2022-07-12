@@ -9,3 +9,51 @@
 @import './secciones/productos';
 @import './secciones/galeria';
 
+.header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    padding-right: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav li{
+ padding: 20px;
+ border-right: solid black 1px;
+border-left: solid 1px black;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+
+}
+.nav :visited{
+    text-decoration: none;
+}
+li :hover{
+    color: rgb(85, 84, 84);
+}
+
+.footer {
+    background-color: white;
+    padding: 25px;
+    text-align: end;
+}
+
+.footer i {
+    color: rgb(5, 5, 5);
+    font-size: 30px;
+    padding: 8px;
+}
+
+.footer i:hover {
+    background-color: rgba(14, 14, 14, 0.295);
+    border-radius: 25%;
+}
+
