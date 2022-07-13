@@ -191,3 +191,48 @@
 
 @import "effects/_imghvr-fade";
 
+// responsive
+
+@media (max-width: 768px) {
+  .img1{
+    position: relative;
+    top: 10px;
+    left: 55px;
+  }
+  .img2{
+    position: relative;
+    top: 20px;
+    left: 55px;
+  }
+  .img3{
+    position: relative;
+    top: 20px;
+    left: 55px;
+  }
+  .img4{
+    position: absolute;
+    top: 576px;
+    left: 396px;
+  }
+  .img5{
+    position: relative;
+    top: 20px;
+    left: 55px;
+  }
+  .img6{
+    position: absolute;
+    top: 902px;
+    right: 51px;
+  }
+  .img7{
+    position: relative;
+    top: 20px;
+    left: 55px;
+  }
+  .img8{
+    position: relative;
+    top: 20px;
+    left: 55px;
+  }
+
+}

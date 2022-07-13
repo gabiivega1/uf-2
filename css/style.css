@@ -200,6 +200,90 @@
 .imghvr-fade-in-right figcaption {
   transform: translate(15%, 0); }
 
+@media (max-width: 768px) {
+  .img1 {
+    position: relative;
+    top: 10px;
+    left: 55px; }
+  .img2 {
+    position: relative;
+    top: 20px;
+    left: 55px; }
+  .img3 {
+    position: relative;
+    top: 20px;
+    left: 55px; }
+  .img4 {
+    position: absolute;
+    top: 576px;
+    left: 396px; }
+  .img5 {
+    position: relative;
+    top: 20px;
+    left: 55px; }
+  .img6 {
+    position: absolute;
+    top: 902px;
+    right: 51px; }
+  .img7 {
+    position: relative;
+    top: 20px;
+    left: 55px; }
+  .img8 {
+    position: relative;
+    top: 20px;
+    left: 55px; } }
+
+.maincontacto {
+  position: relative;
+  min-height: 77vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 1px black;
+  border-top: solid 1px black; }
+
+.inputcontacto {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  align-items: flex-start; }
+
+.enviar {
+  margin-left: 50%; }
+
+.button-1 {
+  background-color: black;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  left: 45%; }
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #414040; }
+
 .header {
   display: flex;
   justify-content: center;
